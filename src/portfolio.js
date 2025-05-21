@@ -18,28 +18,26 @@ const splashScreen = {
 const illustration = {
   animated: true // Set to false to use static SVG
 };
-
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  username: "Nolan Young",
+  title: "Hi there, I'm Nolan",
+  subTitle:
+    "Full-Stack Developer & IT Director with experience in building scalable applications, automating internal workflows, and aligning software architecture with business outcomes. Strong focus on clean code, DevOps, and cross-functional collaboration.",
+  resumeLink: "https://nolanyoung.github.io/Nolan_Young_Final_Resume.pdf",
+  displayGreeting: true
 };
+
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/shibey7",
+  linkedin: "https://www.linkedin.com/in/nolan-young-b4326329b/",
+  gmail: "nolanyoung7@yahoo.com",
+  gitlab: "https://gitlab.com/",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,155 +46,115 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "FULL-STACK DEVELOPMENT | SYSTEMS AUTOMATION | API INTEGRATION",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "Design and develop scalable web apps, APIs, and internal tools using Python, PHP, C#, and JavaScript.",
+    "Automate internal workflows and infrastructure using Git, CI/CD pipelines, and DevOps best practices.",
+    "Build responsive, user-focused interfaces and eCommerce systems with optimized UX and secure integrations."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+ softwareSkills: [
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
+    { skillName: "C#", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
+    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-cogs" },
+    { skillName: "RESTful APIs", fontAwesomeClassname: "fas fa-plug" },
+    { skillName: "WordPress", fontAwesomeClassname: "fab fa-wordpress" },
+    { skillName: "WooCommerce", fontAwesomeClassname: "fas fa-shopping-cart" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
+
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "SUNY Adirondack / SUNY Oswego",
+      logo: require("./assets/images/educationLogo.png"),
+      subHeader: "A.S. in Computer Science (In Progress)",
+      duration: "September 2022 – May 2024",
+      desc: "Coursework in Data Structures (C++), Computer Systems, Discrete Math, Calculus I & II, and Linear Algebra.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Projects in algorithms, object-oriented design, and systems programming.",
+        "Strong academic foundation in both theory and application."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    { Stack: "Frontend/Design", progressPercentage: "90%" },
+    { Stack: "Backend",         progressPercentage: "80%" },
+    { Stack: "DevOps & Automation", progressPercentage: "75%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
+// Work experience section
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer & IT Director",
+      company: "Grasshopper Gardens",
+      companylogo: require("./assets/images/grasshopperLogo.png"),
+      date: "Feb 2024 – Present",
+      desc: "Architected and delivered full-stack applications, internal tools, and eCommerce platforms. Led DevOps strategy with Git-based CI/CD, OAuth2 integrations, and infrastructure automation.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built Python/Flask APIs and integrated secure OAuth 2.0 workflows.",
+        "Developed WordPress/WooCommerce and Shopify solutions, improving UX and increasing leads by 60%.",
+        "Automated deployments with GitHub Actions, reducing manual releases by 80% and ensuring 99.9% uptime."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Project Manager",
+      company: "Young’s Home Improvement",
+      companylogo: require("./assets/images/homeImprovementLogo.png"),
+      date: "Jun 2017 – Present",
+      desc: "Managed end-to-end residential and commercial construction projects, overseeing budgets, schedules, and compliance.",
+      descBullets: [
+        "Coordinated multi-trade crews and enforced safety and building code standards.",
+        "Introduced digital tracking tools, improving project transparency and client satisfaction."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Landscape Engineer",
+      company: "Grasshopper Gardens",
+      companylogo: require("./assets/images/grasshopperLogo.png"),
+      date: "Nov 2023 – Feb 2024",
+      desc: "Created CAD-driven 3D landscape models and technical proposals to secure new contracts.",
+      descBullets: [
+        "Generated accurate cost estimates and scope documents for competitive bids.",
+        "Sourced sustainable materials and coordinated logistics to meet budget and timeline goals."
+      ]
+    },
+    {
+      role: "Maintenance Mechanic",
+      company: "Essity",
+      companylogo: require("./assets/images/essityLogo.png"),
+      date: "May 2021 – Sep 2022",
+      desc: "Maintained industrial paper machines and implemented preventive maintenance programs.",
+      descBullets: [
+        "Reduced downtime via real-time diagnostics and scheduled maintenance.",
+        "Ensured production and safety compliance through precise setups and calibrations."
+      ]
     }
   ]
 };
@@ -211,120 +169,78 @@ const openSource = {
 
 // Some big projects you have worked on
 
+// Big Projects Section
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "A selection of projects showcasing full-stack, API, and automation expertise",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project1.png"),
+      projectName: "Inventory Sync Automation",
+      projectDesc: "Automated syncing between SOS Inventory and WooCommerce using C# and REST APIs, reducing manual errors by 95%.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "View Code", url: "https://github.com/nolanyoung/InventorySync" }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project2.png"),
+      projectName: "LeadGen Dashboard",
+      projectDesc: "Built a React + Flask dashboard tracking user engagement and lead metrics, increasing lead visibility by 60%.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "Live Demo", url: "https://nolanyoung.github.io/leadgen-dashboard" },
+        { name: "Source", url: "https://github.com/nolanyoung/LeadGenDashboard" }
+      ]
+    },
+    {
+      image: require("./assets/images/project3.png"),
+      projectName: "Desktop Field Utility",
+      projectDesc: "Developed a C# WinForms app for field teams to sync work orders with central MySQL DB, improving data accuracy and offline support.",
+      footerLink: [
+        { name: "Download", url: "https://nolanyoung.github.io/field-utility" }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle: "Key accomplishments and certifications across my career",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "UI/UX LeadGen Improvement",
+      subtitle: "Increased inbound lead volume by 60% through UI/UX overhaul",
+      image: require("./assets/images/uxAward.png"),
+      imageAlt: "UX Improvement",
+      footerLink: [{ name: "Case Study", url: "https://nolanyoung.github.io/ux-case-study" }]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "CI/CD Automation",
+      subtitle: "Reduced deployment errors by 80% using GitHub Actions pipelines",
+      image: require("./assets/images/cicdLogo.png"),
+      imageAlt: "CI/CD Automation",
+      footerLink: [{ name: "Pipeline Docs", url: "https://github.com/nolanyoung/ci-cd-config" }]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
 // Blogs Section
-
+// Blog Section
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  title: "Blogs & Articles",
+  subtitle: "Sharing insights on development, DevOps, and automation",
+  displayMediumBlogs: false,
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://nolanyoung.dev/blog/aws-ci-cd-pipeline",
+      title: "Automating AWS Deployments with GitHub Actions",
+      description: "A step-by-step guide to building CI/CD pipelines for AWS-hosted applications."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
